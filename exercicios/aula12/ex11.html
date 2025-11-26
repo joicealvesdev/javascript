@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country of birth</title>
+</head>
+<body>
+     <h1>Place of birth</h1>
+    Enter your country: <input type="text" name="text1" id="text1">
+    <input type="button" value="verificar" onclick="verificarPais()">
+    
+    
+    <div id="res"></div>
+
+    <script>
+        function verificarPais() {
+            var txt = document.getElementById('text1')
+            var res = document.getElementById('res')
+            var país = txt.value.trim()  // remove espaços no começo/fim
+
+            if(país === "") {
+                res.innerHTML = "<p>Please enter a country.!</p>"
+            } else if(pais.toLowerCase() === "brasil") {
+                res.innerHTML = "<p>You were born in Brazil! 🇧🇷</p>"
+            } else {
+                res.innerHTML = `<p>You were born in ${país}! 🌎</p>`
+            }
+        }
+    </script>
+</html>
