@@ -1,0 +1,60 @@
+
+
+body {
+   background-color: rgb(35, 155, 225);
+   font: normal 15px;
+}
+
+#res {
+       box-shadow: 5px 5px 5px rgb(149, 205, 223)
+}
+#foto {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.jovem-m {
+        background-image: url(imagens/jovem-m.png);
+}
+
+.jovem-f {
+    background-image: url(imagens/jovem-f.png);
+}
+
+.adulto-m {
+    background-image: url(imagens/adulto-m.png);
+}
+
+.adulto-f {
+    background-image: url(imagens/adulto-f.png);
+}
+
+.idoso {
+    background-image: url(imagens/idoso.png);
+}
+
+.idosa {
+    background-image: url(imagens/idosa.png);
+}
+
+ header {
+     color: white;
+     text-align: center;
+ }
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.437);
+}
+footer {
+    color: white;
+   text-align: center;
+   font-style: italic;
+   
+}
