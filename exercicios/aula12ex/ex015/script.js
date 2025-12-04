@@ -16,7 +16,7 @@ function verificar() {
     let idade = ano - Number(fano.value)
     let genero = ''
 
-    // limpa classes antigas
+   
     foto.className = ""
 
     if (fsex[0].checked) {
