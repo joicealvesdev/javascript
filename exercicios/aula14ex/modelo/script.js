@@ -1,0 +1,23 @@
+function verificar () {
+    let num = document.getElementById('txtnu')
+    let tab = document.getElementById('selectab')
+    
+    if (num.value.length == 0) {
+         window.alert('Por favor, digite um número')
+        
+    } else {
+         let n = Number(num.value)
+         let c = 1
+         tab.innerHTML = ''
+         while (c <= 10) {
+            let item = document.createElement('option')
+            item.text = `${n} x ${c} = ${n*c}`
+            tab.appendChild(item)
+            item.value = `tab${c}` 
+            c++      
+        } }
+         
+    
+    
+
+}
