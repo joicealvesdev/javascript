@@ -5,6 +5,11 @@ body {
    font: normal 15px;
 }
 
+.n {
+    box-shadow: 1px 1px 5px rgb(146, 146, 249);
+}
+
+
 #res {
     text-align: center;
 }
