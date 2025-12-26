@@ -8,18 +8,23 @@
 </head>
 <body>
     <header>
-       <h1>Hora do Dia </h1>
+       <h1>Comprar Frutas</h1>
     </header>
-
+    
     <section>
-    <div><p>Email: <input type="email" name="email" id="imail"> </p></div>
-    <p>numero de telefone: <input type="number" name="tel" id="itel"></p>
-    <input type="submit" value="enviar" id = "btn" onclick="verificar" verificar()>
+    <div id ="formulario">
       
-   <div id="res">Testando</div>
-   <div>
-     <img src="" alt="">
-   </div>
+      <p>Número de 1 a 100: <input type="number" name="tel" id="itel">
+      <input type="button" value="Adicionar" id ="btn" onclick="adicionar()" ></p>
+      Escolha uma fruta:
+      <select name="flalist" id="lista" size="1">
+        
+     <input type="button" value="Finalizar" id = "btn2" onclick = "finalizar()">
+      </select>
+      
+    </div>
+   <div id="res"></div>
+  
     </section>
 
     <footer>
