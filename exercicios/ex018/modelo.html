@@ -8,19 +8,25 @@
 </head>
 <body>
     <header>
-       <h1>Comprar Frutas</h1>
+       <h1>Analisar numeros</h1>
     </header>
     
     <section>
     <div id ="formulario">
       
-      <p>Número de 1 a 100: <input type="number" name="tel" id="itel">
-      <input type="button" value="Adicionar" id ="btn" onclick="adicionar()" ></p>
-      Escolha uma fruta:
-      <select name="flalist" id="lista" size="1">
-        
-     <input type="button" value="Finalizar" id = "btn2" onclick = "finalizar()">
-      </select>
+      <div>
+        Número de 1 a 100: <input type="number" name="fnum" id="fnum">
+        <input type="button" value="Adicionar" onclick="adicionar()">
+         <select name="flista" id="lista" size="6" class="flista">
+            
+        </select>
+      
+        <br><input type="button" value="Finalizar" onclick="finalizar()"">
+      </div>
+      
+       
+      
+      
       
     </div>
    <div id="res"></div>

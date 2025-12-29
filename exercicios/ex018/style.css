@@ -7,6 +7,9 @@ body {
 #formulario {
    
 }
+.flista {
+    width: 150px;
+}
 #res {
     text-align: center;
 }
@@ -28,3 +31,5 @@ footer {
    font-style: italic;
    
 }
+
+
