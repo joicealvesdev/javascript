@@ -11,7 +11,7 @@ for (let c = 1; c <= 5 ; c++) {
     console.log (c)
 }
 
-for(let c= 1; <5: c++) {
+for(let c= 1; <5; c++) {
     console.log(c)
 }
 
@@ -39,3 +39,4 @@ while (c<=5) {
 for (let c=1; c<=5; c++){
     console.log(c)
 }
+
