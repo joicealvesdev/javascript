@@ -23,9 +23,3 @@ function despedida () {
     console.log('Até mais!');
 }
 saudar('Maria', despedida);
-
-//Outra forma de usar CallBack é usando funções anônimas
-
-saudar('João', function() {
-    console.log('Até logo!');
-});
