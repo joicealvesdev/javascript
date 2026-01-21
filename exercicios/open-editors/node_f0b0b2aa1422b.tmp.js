@@ -29,3 +29,7 @@ saudar('Maria', despedida);
 saudar('João', function() {
     console.log('Até logo!');
 });
+
+
+
+
