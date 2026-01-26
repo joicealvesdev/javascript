@@ -8,3 +8,14 @@ var moto = {
 
 
 console.log(moto.dono + '' + moto.valor)
+
+
+
+var bicicleta = {
+    cor:'black',
+    tamanho: 'grande',
+    modelo: 'aro29',
+    ano: 2026,
+}
+
+console.log(bicicleta.cor + '' bicicleta.ano)
