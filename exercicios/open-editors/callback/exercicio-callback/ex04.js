@@ -8,3 +8,5 @@ function calcular(calculo) {
 }
 
 calcular(window.prompt('Informe um calculo!'))
+
+
