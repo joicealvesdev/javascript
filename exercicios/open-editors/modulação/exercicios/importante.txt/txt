@@ -1,0 +1,11 @@
+-------------------------------------------------
+
+Import Default ❌ NÃO USA { }
+
+VANTAGENS: só pode um por arquivo - importar com qualquer nome.
+
+--------------------------------------------------
+
+import named exports ✅ { }
+
+IMPORTAR TODOS OS EXPORTS 

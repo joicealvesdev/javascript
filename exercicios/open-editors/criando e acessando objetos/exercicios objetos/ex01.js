@@ -18,4 +18,14 @@ var bicicleta = {
     ano: 2026,
 }
 
-console.log(bicicleta.cor + '' bicicleta.ano)
+console.log(bicicleta.cor +  bicicleta.ano)
+
+
+
+var brinquedo = {
+    brinquedo1: 'carrinho',
+    brinquedo2: 'boneca',
+    brinquedo3: 'bola'
+}
+
+console.log(brinquedo.brinquedo1 + brinquedo.brinquedo2)
