@@ -6,4 +6,6 @@ console.log('Hora de Hoje:' , Datas.hora())
 
 console.log('Numero aleatorio:', Numeros.aleatorio(1, 10))
 
-console.log('Dobro:', Numeros.dobro(5))
+console.log('Dobro:', Numeros.dobro(5)) 
+ 
+
