@@ -6,7 +6,6 @@ var moto = {
 }
 
 
-
 console.log(moto.dono + '' + moto.valor)
 
 
@@ -29,3 +28,5 @@ var brinquedo = {
 }
 
 console.log(brinquedo.brinquedo1 + brinquedo.brinquedo2)
+
+
