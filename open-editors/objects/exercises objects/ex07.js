@@ -9,6 +9,6 @@ const pc2 = new pc ("Duex" , "Processador Intel  i 5 9Geração");
 
 
 console.log(pc1.name);
-console.log(pc2.model);
+console.log(pc2.model); 
 
 
