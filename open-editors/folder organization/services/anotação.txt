@@ -1,0 +1,1 @@
+Services são funçoes JavaScripts que estão consumindo APIs de Terceiros.
