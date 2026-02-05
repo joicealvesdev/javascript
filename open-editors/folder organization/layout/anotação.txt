@@ -1,0 +1,1 @@
+Layout, componente onde armazena a logo da empresa e desing de fixação das paginas.

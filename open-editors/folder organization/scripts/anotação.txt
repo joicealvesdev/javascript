@@ -1,0 +1,1 @@
+A pasta scripts geralmente é utilizada para armazenar config JavaScript.
