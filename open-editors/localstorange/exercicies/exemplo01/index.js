@@ -1,4 +1,4 @@
-localStorage.setItem("nome" , "Joice");
+localStorage.setItem("nome" , "Joice")
+ const nome = localStorage.getItem("nome")
+console.log(nome)
 
-const nome = localStorage.getItem("nome");
-console.log(nome);
