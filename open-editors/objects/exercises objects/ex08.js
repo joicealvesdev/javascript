@@ -8,4 +8,3 @@ const tv2 = new tv ("TV SANSUNG" , 50);
 
 console.log(tv1.name); 
 console.log(tv2.model);
-

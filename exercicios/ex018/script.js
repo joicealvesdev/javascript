@@ -1,3 +1,7 @@
+localStorage.setItem("nome", "devcode" )
+const nome = localStorage.getItem ("nome")
+console.log(nome)
+localStorage.removeItem("nome")
 
 let num = document.querySelector('input#fnum')
 let lista = document.querySelector('select#lista')
@@ -46,4 +50,5 @@ function finalizar() {
 
     }
 }
+
 

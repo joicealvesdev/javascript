@@ -14,5 +14,3 @@ console.log(pc2.model);
 
 
 
-
-
