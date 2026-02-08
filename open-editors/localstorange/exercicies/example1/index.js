@@ -35,3 +35,6 @@ localStorage.setItem("enterprise:" , "Amazon")
 const enterprise = localStorage.getItem("enterprise")
 console.log(enterprise)
 
+localStorage.setItem("exemple:" , "bike")
+const exemple = localStorage.getItem("exemple")
+console.log(exemple)  
