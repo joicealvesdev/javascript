@@ -2,24 +2,8 @@
 argumentos
 retornos*/
 
-function somar (v,g) {
-  return v+g
-}
-
-console.log(somar(2,2))
-
-function user (name,surname) {
-    let person =  (`Meu nome é ${name} e o meu sobrenome é ${surname}`)
-    return person
-} let user1  = user ('Joice' , 'Alves')
-console.log(user1)
 
 
-function desktop (name, model) {
-    let user = `Desktop name ${name} and model ${model}`
-    return user
-} let nameuser = desktop ('HQ', '138439GV')
-console.log(nameuser)
 
 
 
@@ -91,7 +75,7 @@ function bicicleta (modelo,tamanhoDabicileta, valor, qualidade) {
  let bicicletaDocliente = bicicleta ('Aro29', '50', '2000reais', 'exelente')
  console.log(bicicletaDocliente) 
 
-/*
+
 for(let c= 1; c<=5; c++) {
     console.log(c)
 }
@@ -125,5 +109,5 @@ let v = 1
 for (let v=1; v<=5; c++){
     console.log(c)
 }
- */
+ 
 
