@@ -1,1 +1,24 @@
 JsonStringify é um métado nativo do Js que serve para transformar objetos ou valores em uma string no formato Json. Ele pega um objeto cheio propriedades e valores e o transforma em texto puro.
+
+
+
+Se O JSON.stringify() tira uma foto textual do objeto.
+
+ O Json.parse() pega essa foto (string Json) e revive como objeto novamente
+
+
+ const person = {name: "Joice", idade: "17 anos" , cidade: "Belo Jardim"};
+
+
+Passo 1  Objeto 
+Passo 2 Transformar o Objeto em String pura (JsonStringify)
+Passo 3 Inverter a String pura para um novo, exemplo,  objetoNovo, resumidamente, retornando o valor anterior */
+
+
+Lembrete 
+-> Stringify, congelar o texto
+-> String.parse, reviver o objeto
+         
+
+
+
