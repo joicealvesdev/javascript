@@ -1,0 +1,1 @@
+JsonStringify é um métado nativo do Js que serve para transformar objetos ou valores em uma string no formato Json. Ele pega um objeto cheio propriedades e valores e o transforma em texto puro.

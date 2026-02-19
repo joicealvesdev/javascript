@@ -4,14 +4,7 @@ console.log(nome) */
 
 
 
-/*localStorage.setItem("user:" , "Joice")
-localStorage.setItem("número:" , "13")
-
-const user = localStorage.getItem("user")
-const número = localStorage.getItem("número")
-
-console.log(user) */
-
+/*
 
 localStorage.setItem("usuario:", "Max")
 const usuario = localStorage.getItem("usuario")
@@ -37,15 +30,34 @@ console.log(enterprise)
 
 localStorage.setItem("exemple:" , "bike")
 const exemple = localStorage.getItem("exemple")
-console.log(exemple)  
+console.log(exemple)   */
 
 
 
-localStorage.setItem("enterprise" , "PrimeVideo")
-const exemple1 = localStorage.getItem("exemple1")
-console.log(exemple1)
 
-localStorage.set("app", "Whatszapp")
-const apple = localStorage.getItem ("apple")
-console.log(apple)
+
+localStorage.setItem("app" , "Whatszapp") 
+const apple = localStorage.getItem ("apple") 
+console.log(apple) 
+
+
+localStorage.setItem("enterprise" , "Itáu")
+const enterprise = localStorage.getItem("enterpise")
+console.log(enterprise)
+
+localStorage.clear()
+
+
+
+localStorage.setItem("user:" , "Joice")
+localStorage.setItem("número:" , "13")
+
+const user = localStorage.getItem("user")
+const número = localStorage.getItem("número")
+console.log(user)
+
+
+
+localStorage.setItem("nome", "Joice")
+const nome = localStorage.getItem("nome")
 

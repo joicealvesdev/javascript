@@ -1,0 +1,7 @@
+setItem ("chave" , "valor") => add um item 
+
+getItem ("chave") => le um item
+
+removeItem {"chave"} => remove um dado especifico 
+
+clear{} => Apaga Tudo
