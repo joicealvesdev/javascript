@@ -63,6 +63,27 @@ Dicas rápidas
 - {n,} → n vezes ou mais.
 
 
+Encontrar urls em um texto
+
+https?:\/\/[^\s]+ -> hhtps://site.com ou https://meusite./teste
+
+
+^\w{8}[A-Za-z]{1}$ Senha Forte
+
+
+^[A-Z]{3}-\d{4}$ placa de carro
+
+^[A-Za-z]{5}$ Extrair palavras com 5 letras
+
+^\d{2}/\d{2}/\d{4}$ validar data
+
+
+
+
+
+
+
+
 
 
 
