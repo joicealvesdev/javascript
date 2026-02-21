@@ -35,15 +35,15 @@ n -> significa “repita o padrão n vezes”
 
 e exemplos com {} em Regex
 |  |  |  | 
-| \d{5} |  | 12345 | 
-| \d{3} |  | 678 | 
-| \d{2,5} |  | 1212312345 | 
-| \d{2,} |  | 12123456 | 
-| [A-Za-z]{4} |  | RoxveTest | 
-| [A-Za-z]{6,8} |  | JoiceeProgram | 
-| \w{8,} |  | password123 | 
-| \d{11} |  | 12345678901 | 
-| \d{2}-\d{4}-\d{4} |  | 81-3456-7890 | 
+| \d{5} | Exatamente 5 Digitos | 12345 | 
+| \d{3} | Exatamente 3 Digitos | 678 | 
+| \d{2,5} | Entre 2 e 5 | 1212312345 | 
+| \d{2,} | 2 ou mais digitos | 12123456 | 
+| [A-Za-z]{4} | Exatamente 4 letras | JoceTest | 
+| [A-Za-z]{6,8} | Entre 6 a 8 letras | JoiceeProgram | 
+| \w{8,} | Palavra com 8 ou mais caractere  | password123 | 
+| \d{11} | Exatamente 11 digitos  | 12345678901 | 
+| \d{2}-\d{4}-\d{4} | Formato de Telefone | 81-3456-7890 | 
 
 
 \d{8} number; | 87993028 
@@ -61,6 +61,8 @@ Dicas rápidas
 - {n} → exatamente n vezes.
 - {n,m} → entre n e m vezes.
 - {n,} → n vezes ou mais.
+
+
 
 
 
