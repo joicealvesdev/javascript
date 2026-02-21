@@ -71,11 +71,17 @@ https?:\/\/[^\s]+ -> hhtps://site.com ou https://meusite./teste
 ^\w{8}[A-Za-z]{1}$ Senha Forte
 
 
+^\d{5}-\d{3}$  CEP
+
+
 ^[A-Z]{3}-\d{4}$ placa de carro
 
 ^[A-Za-z]{5}$ Extrair palavras com 5 letras
 
-^\d{2}/\d{2}/\d{4}$ validar data
+^\d{2}/\d{2}/\d{4}$ validar data  
+
+
+
 
 
 
