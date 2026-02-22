@@ -1,0 +1,8 @@
+test() -> verifica se o padrão existe na string (retorna true ou false) /\d{3}/.test("abc123") ->
+
+
+match-> retorna o(s) trecho (s) que batem com o padrão -> "abc123".match(/d+/) -> ["123"]
+
+replace - > Substitui o trecho que bate com o padrão por outro texto 
+
+
