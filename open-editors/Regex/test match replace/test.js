@@ -1,6 +1,9 @@
 let cpf = "12345678901";
 console.log(/^\d{11}$/.test(cpf));
 
+
+
+//Substitui todos os números por #
 let email = "joice@gmail.com";
 console.log(/\w+@\w+\.\w{2,3}$/.test(email));
 
