@@ -1,5 +1,5 @@
 function validadorCep(cep) {
-    let regex = ^\d{5}-\d{3}$;
+    let regex = ^\d{5}-\d{3}$
     return regex.test(cep);
 }
 
