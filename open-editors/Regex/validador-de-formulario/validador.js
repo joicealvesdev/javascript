@@ -22,3 +22,11 @@ function validadorEmail2(email){
 
 console.log(validadorEmail2("joicealves@gmail.com"))
 console.log(validadorEmail2("email.com"));
+
+function validadorEmail3(email){
+    let regex = /^\w+@\w+\.\w{2,3}$/; 
+    return regex.test(email);
+}
+
+console.log(validadorEmail3("carloseduardo@gmail.com"));
+console.log(validadorEmail3("carloseduardo@gmail."))
